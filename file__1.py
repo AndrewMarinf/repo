@@ -1,11 +1,11 @@
 
-# if __name__ == '__main__':
-# print(111)
-# print(222)
-# print(555)
+if __name__ == '__main__':
+    print(111)
+print(222)
+print(555)
 
-# a = {'name':'Vasya','surname':'Petrov', 'age':25}
-# print(a['surname'])
+a = {'name':'Vasya','surname':'Petrov', 'age':25}
+print(a['surname'])
 
 
 a = {1:'qwe'}
@@ -14,18 +14,18 @@ b[1] = 'asv'
 print(a)
 
 
-# c = 500000000000000
-# v = 500000000000000
-# print(c == v)
-# print(c is v)
+c = 500000000000000
+v = 500000000000000
+print(c == v)
+print(c is v)
 
-# print(id(c))
-# print(id(v))
+print(id(c))
+print(id(v))
 
 
-# z = ({},2)
-# z[0][3]= 'f'
-# print(z)
+z = ({},2)
+z[0][3]= 'f'
+print(z)
 
 print('=' * 30)
 
